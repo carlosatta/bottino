@@ -1,0 +1,27 @@
+{
+  "name": "bottino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {"bottino": "./bin/server"},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "node-coinmarketcap": "^0.2.0",
+    "node-health-check": "^1.0.1",
+    "portfinder": "^1.0.13",
+    "q": "^1.5.1",
+    "seneca": "github:senecajs/seneca#master",
+    "seneca-balance-client": "^0.6.1",
+    "seneca-mesh": "^0.11.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "node-health-check": "^1.0.1",
+    "portfinder": "^1.0.13"
+  }
+}

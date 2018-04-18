@@ -1,0 +1,23 @@
+{
+  "test": "info",
+  
+  "network": {
+    "port": 8071,
+    "host": "127.0.0.1",
+    "type": "tcp"
+  },
+
+  "healt": {
+    "retry": 500,
+    "timeout": 5000
+  },
+  
+  "service": {
+    "coinmarketcap": {
+      "events": true,
+      "refresh": 5, 
+      "convert": "USD"
+    }
+  }
+
+}
